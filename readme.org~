@@ -1,7 +1,6 @@
 ml-template
 
-#+BEGIN_SRC
-
+```
 ├── data/
 │    ├── train.csv
 │    ├── test.csv
@@ -15,5 +14,4 @@ ml-template
      ├── model.py
      ├── ops.py
      └── metric.py
-
-#+END_SRC
+```
