@@ -1,0 +1,17 @@
+ml-template
+
+```
+├── data/
+│    ├── train.csv
+│    ├── test.csv
+│    ├── config.json
+│    └── preprocessing/
+│
+├── experiments/
+├── results/
+└── model/
+     ├── preprocess.py
+     ├── model.py
+     ├── ops.py
+     └── metric.py
+```
