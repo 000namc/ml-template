@@ -1,0 +1,11 @@
+
+class preprocess:
+
+    def basic(data):
+        return()
+
+    
+class ml_models:
+
+    def logistic():
+        return()

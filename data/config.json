@@ -1,4 +1,18 @@
 {
-    "a" : "abc",
-    "b" : "bcd"
+    "origin": {
+        "path": {
+            "train": "/Users/000namc/github/ml-template/data/origin/train.csv",
+            "test": "/Users/000namc/github/ml-template/data/origin/test.csv"
+        },
+        "description": {
+            "train": "\uc6d0\ubcf8 train data",
+            "test": "\uc6d0\ubcf8 test data"
+        }
+    },
+    "preprocessing": {
+        "path": {
+            "basic": "/Users/000namc/github/ml-template/data/preprocessing/basic/"
+        },
+        "description": {}
+    }
 }

@@ -1,0 +1,14 @@
+
+import os
+import json
+import sys
+
+# os.chdir('../')
+path = os.getcwd() 
+sys.path.insert(0, path)
+json_path = path + '/data/config.json'
+
+from utils import Config
+config = Config(json_path)
+
+print(config.dict['descript'])
