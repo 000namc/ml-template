@@ -49,3 +49,6 @@ ml_model = getattr(sys.modules['model'].ml_models,model_version)(pars)
 
 # ml_model.fit()
 # 
+# filename = par_path + '/finalized_model.sav'
+# pickle.dump(model, open(filename, 'wb'))
+

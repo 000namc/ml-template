@@ -14,6 +14,7 @@ ml-template
 ├── results/
 ├── model/
 │    ├── model.py
+│    ├── model_pars.json
 │    ├── ops.py
 │    └── metric.py
 │
