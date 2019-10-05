@@ -3,17 +3,23 @@ ml-template
 #+BEGIN_SRC
 
 ├── data/
-│    ├── train.csv
-│    ├── test.csv
-│    ├── config.json
-│    └── preprocessing/
+│    ├── origin/
+│    │    ├── train.csv
+│    │    ├── test.csv
+│    │    └── ...
+│    ├── preprocessing/
+│    └── config.json
 │
 ├── experiments/
 ├── results/
-└── model/
-     ├── preprocess.py
-     ├── model.py
-     ├── ops.py
-     └── metric.py
+├── model/
+│    ├── model.py
+│    ├── ops.py
+│    └── metric.py
+│
+├── preprocess.py
+├── train.py
+├── infer.py
+└── utils.py
 
 #+END_SRC
